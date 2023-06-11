@@ -5,7 +5,7 @@ public class Shortcuts {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.print("Metin girin: ");
+        System.out.print("Metin girin:  ");
         String metin = scanner.nextLine().toLowerCase();
 
 
