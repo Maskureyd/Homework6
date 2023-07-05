@@ -4,7 +4,7 @@ public class StringComparator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("İlk stringi girin: ");
+        System.out.print("İlk stringi girin:  ");
         String firstString = scanner.nextLine();
 
         System.out.print("İkinci stringi girin: ");
