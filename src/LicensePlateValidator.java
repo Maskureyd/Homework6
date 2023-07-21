@@ -4,7 +4,7 @@ public class LicensePlateValidator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Plakayı girin: ");
+        System.out.print("Plakayı girin:  ");
         String licensePlate = scanner.nextLine();
 
         if (isValidLicensePlate(licensePlate)) {
