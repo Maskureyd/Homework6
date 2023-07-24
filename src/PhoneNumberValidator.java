@@ -10,7 +10,7 @@ public class PhoneNumberValidator {
         if (isValidPhoneNumber(phoneNumber)) {
             System.out.println("Geçerli telefon numarası.");
             System.out.println("Alan kodu: " + getAreaCode(phoneNumber));
-            System.out.println("Telefon numarası: " + getPhoneNumber(phoneNumber));
+            System.out.println("Telefon numarası:  " + getPhoneNumber(phoneNumber));
         } else {
             System.out.println("Geçerli bir telefon numarası değil.");
         }
