@@ -4,7 +4,7 @@ public class PhoneNumberValidator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Telefon numarasını girin: ");
+        System.out.print("Telefon numarasını girin:  ");
         String phoneNumber = scanner.nextLine();
 
         if (isValidPhoneNumber(phoneNumber)) {
